@@ -12,8 +12,9 @@ body {
 }
 
 /* Write your own custom component styles here */
-.btn-blue {
-  @apply px-4 py-2 font-bold text-white bg-blue-500 rounded;
+.item {
+  width: inherit;
+  height: inherit;
 }
 
 /* Start purging... */
@@ -21,3 +22,7 @@ body {
 /* Stop purging. */
 
 /* Your own custom utilities */
+
+.h-screen-3 {
+  height: 300vh;
+}
