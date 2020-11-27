@@ -20,7 +20,7 @@ export default function IndexPage() {
             <motion.div
               className=""
               style={{
-                scale: useTransform(scrollYProgress, [0, 1], [0, 4]),
+                scale: useTransform(scrollYProgress, [0, 1], [0, 3.5]),
               }}
             >
               🦃️
